@@ -1,0 +1,10 @@
+# Python 3.10+
+pandas>=2.0
+numpy>=1.24
+pyarrow>=14.0
+boto3>=1.28          # src/upload.py - S3-compatible client for the challenge MinIO bucket
+
+# Feature construction runs in SQL against PostgreSQL; the models are trained in
+# Dataiku DSS (per-airport LightGBM). Neither is a Python dependency of this repo.
+# Weather source: ERA5 reanalysis via the Copernicus CDS API (cdsapi) - fetch scripts
+# are not redistributed here; see README section 5.

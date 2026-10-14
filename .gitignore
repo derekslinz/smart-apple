@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.log
+*.csv
+*.csv.gz
+*.tsv
+*.tsv.gz
+preds-*.parquet
+scratch/
+.ipynb_checkpoints/
